@@ -1,0 +1,19 @@
+package client;
+
+import com.comp.Comp;
+import com.emp.Emp;
+
+public class Client {
+	public void client() {
+		System.out.println("Clientname");
+
+	}
+public static void main(String[]args) {
+	Emp.name=new Emp;
+	name.empname();
+	Comp.comp=new Comp;
+	Comp.company();
+	
+
+}
+}

@@ -1,0 +1,15 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Basic {
+	public static void main(String[] args) {
+	
+	//Browser confiuration
+		System.out.println("webdriver.geeko.driver");
+		
+	//Launch the Browser
+		WebDriver.driver = new FirefoxDriver();
+		
+	}
+
+}
